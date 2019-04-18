@@ -62,7 +62,6 @@ function removeFromCart(item) {
   } return 'That item is not in your cart.' // for an if () {} statement you can essentially set the two conditions like this: if (condition {true}) {true action} false action
 }
 
-
 function placeOrder(card) {
   if (card === undefined) {
     var message = 'Sorry, we don\'t have a credit card on file for you.'
