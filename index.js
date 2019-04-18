@@ -69,7 +69,7 @@ function placeOrder(card) {
 //      cart.splice([i], 1)
     } else {
     var message = `Your total cost is \$${total()}, which will be charged to the card ${card}.`
-    }
     cart = [];
+    }
     return message
 }
