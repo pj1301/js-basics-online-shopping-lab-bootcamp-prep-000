@@ -37,7 +37,7 @@ function viewCart() {
       else {
         var final = cartSummary.pop() //remove the last entry and add to the end of the sentence.
         return `In your cart, you have ${cartSummary.join(', ')}, and ${final}.`
-    }
+      }
 }
 
 function total() {
