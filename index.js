@@ -68,8 +68,8 @@ function placeOrder(card) {
 //    for (var i = 0; i < cart.length; i++) {
 //      cart.splice([i], 1)
     } else {
-    var message = `Your total cost is \$${total()}, which will be charged to the card ${card}.`
-    cart = []; // works in else not in if
-    }
-    return message
+      var message = `Your total cost is \$${total()}, which will be charged to the card ${card}.`
+      cart = []; // works in else not in if
+      }
+  return message
 }
