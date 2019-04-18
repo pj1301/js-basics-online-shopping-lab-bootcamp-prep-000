@@ -59,7 +59,7 @@ function removeFromCart(item) {
     if (item === cart[i].itemName) {
       cart.splice([i], 1)
     }
-  } return 'That item is not in your cart.'
+  } return 'That item is not in your cart.' // for an if () {} statement you can essentially set the two conditions like this: if (condition {true}) {true action} false action
 }
 //  var tie = cart.indexOf({itemName: "item", itemPrice: })
 //const cardNumber = Math.floor(Math.random() * 100000000);
