@@ -62,7 +62,7 @@ function removeFromCart(item) {
     // if (item === cart[i].itemName !== false) {
     //return 'That item is not in your cart.'
     //   }
-    }
+    } return 'That item is not in your cart.'
 }
 //  var tie = cart.indexOf({itemName: "item", itemPrice: })
 //const cardNumber = Math.floor(Math.random() * 100000000);
