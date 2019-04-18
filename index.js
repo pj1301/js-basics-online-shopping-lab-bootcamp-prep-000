@@ -15,10 +15,10 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
-var object = {
-  itemName: item,
-  itemPrice: getRandomInt(100)
-};
+  var object = {
+    itemName: item,
+    itemPrice: getRandomInt(100)
+  };
  cart.push(object) //this adds the items to the cart
  return `${item} has been added to your cart.`
 }
